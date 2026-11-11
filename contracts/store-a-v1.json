@@ -1,0 +1,22 @@
+{
+  "source": "store-a",
+  "schema_version": "v1",
+  "delimiter": ",",
+  "columns": {
+    "交易号": "transaction_key",
+    "版本": "source_revision",
+    "金额": "amount",
+    "日期": "day",
+    "备注": "memo"
+  },
+  "required": [
+    "交易号",
+    "版本",
+    "金额",
+    "日期"
+  ],
+  "amount_unit": "yuan",
+  "rounding": "HALF_UP",
+  "date_format": "%Y-%m-%d",
+  "source_revision": "source_revision"
+}

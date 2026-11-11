@@ -1,0 +1,22 @@
+{
+  "source": "store-b",
+  "schema_version": "v2",
+  "delimiter": ",",
+  "columns": {
+    "id": "transaction_key",
+    "rev": "source_revision",
+    "fen": "amount",
+    "day": "day",
+    "memo": "memo"
+  },
+  "required": [
+    "id",
+    "rev",
+    "fen",
+    "day"
+  ],
+  "amount_unit": "fen",
+  "rounding": "HALF_UP",
+  "date_format": "%Y/%m/%d",
+  "source_revision": "source_revision"
+}
